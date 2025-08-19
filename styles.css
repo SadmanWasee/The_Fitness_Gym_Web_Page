@@ -1,0 +1,148 @@
+/*#region common settings*/
+* {
+    padding: 0;
+    margin: 0;
+}
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.custom-color-yellow {
+    color: #ffd15e;
+}
+.custom-color-black {
+    color: #000000;
+}
+.custom-font-size-58 {
+    font-size: 58px;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #ffd15e;
+}
+
+.col-12{
+    padding: 0;
+}
+/*#endregion common settings*/
+
+/*#region navbar*/
+.navbar {
+    color: black;
+}
+/*#endregion navbar*/
+
+/*#region banner-top*/
+.banner-top {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg.jpg);
+    background-size: cover;
+    background-position: 20% 50%;
+}
+.fitness-gym-logo {
+    height: 190px;
+}
+.image-gallery-button {
+    width: 100%;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FFC63D;
+    border: 2px solid #FFC63D;
+}
+.image-gallery-button:hover {
+    background-color: white;
+    border:2px solid white;
+}
+.recorded-classes-button {
+    width: 100%;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid #FFC63D;
+    background: transparent;
+}
+.recorded-classes-button:hover {
+    color: black;
+    background-color: white;
+    border:2px solid white
+}
+.freepick-link {
+    color: white;
+}
+.freepick-link:hover{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.down-logo {
+    height: 58px;
+}
+
+.offcanvas-start{
+    opacity: 0.9;
+}
+
+@media only screen and (min-width: 800px) {
+  .image-gallery-button {
+    width: 49%;
+  }
+  .recorded-classes-button {
+    width: 49%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .image-gallery-button {
+    width: 30%;
+  }
+  .recorded-classes-button {
+    width: 30%;
+  }
+}
+/*#endregion banner-top*/
+
+/*#region Gym services*/
+.service-card {
+    padding: 0;
+}
+.service-logo {
+    position: relative;
+    z-index: 999;
+    background-color: white;
+    translate: 0px 60px;
+    height: 90px;
+    border: 5px solid #FDC43D;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service-card-body {
+    padding-top: 100px;
+    background-color: #FDC43D;
+}
+.forward-logo {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.custom-font-size-48{
+    font-size: 48px;
+}
+/*#endregion Gym services*/
+
+/*#region canvas-tour-booking*/
+.canvas-tour-booking{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_2.jpg);
+    background-size: cover;
+    padding: 250px 0px 100px 0px;
+}
+.book-a-tour-button {
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FFC63D;
+    border: 2px solid #FFC63D;
+}
+/*#endregion canvas-tour-booking*/
