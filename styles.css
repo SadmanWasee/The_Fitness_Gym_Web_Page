@@ -175,6 +175,7 @@
 /*#endregion canvas-tour-booking*/
 
 /*#region canvas-learnmore-contactus*/
+
 .button-learnmore {
   padding: 10px 30px;
   font-size: 18px;
@@ -240,6 +241,72 @@
     border: 1px solid #FFFFFF;
   }
 }
-
-
 /*#endregion canvas-learnmore-contactus*/
+
+/*#region benefits-of-sports-training*/
+.benifits-of-sport-training-segment{
+  background-color: #FFC63D;
+}
+
+.benifits-card{
+  background-color: #FFFFFF;
+  padding: 50px 25px;
+}
+
+.more-info{
+  color: black;
+}
+
+.more-info:hover{
+  color: black;
+}
+
+@media only screen and (min-width: 992px) {
+  .benifits-of-sport-training-segment{
+    min-height: 100vh;
+  }
+}
+/*#endregion benefits-of-sports-training*/
+
+/*#region book-your-workout*/
+.book-your-workout{
+  background: linear-gradient(
+    to top, 
+    white 0%,
+    white 60%,
+    #FFC63D 60%,
+    #FFC63D 100%
+
+  );
+}
+.workout-img {
+  height: 300px;
+  width: 100%;
+}
+
+.submit-button{
+  background-color: #FDC43D;
+  border: 2px solid #FDC43D;
+}
+
+.submit-button:hover{
+  background-color: #000000;
+  border-color: 2px solid #000000;
+  color: #FFFFFF;
+}
+
+.phone-number{
+  text-decoration: none;
+}
+.phone-number:hover{
+  color: #FDC43D;
+}
+
+@media only screen and (min-width: 768px) {
+  .translate-100 {
+    translate: 0 100px;
+  }
+}
+
+
+/*#endregion book-your-workout*/
