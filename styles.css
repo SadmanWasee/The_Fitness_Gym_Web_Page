@@ -3,25 +3,32 @@
   padding: 0;
   margin: 0;
 }
+
 .custom-container {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .custom-color-yellow {
   color: #ffd15e;
 }
+
 .custom-color-black {
   color: #000000;
 }
+
 .custom-font-size-58 {
   font-size: 58px;
 }
+
 .navbar a {
   text-decoration: none;
 }
+
 .navbar a:hover {
   color: #ffd15e;
 }
+
 /*#endregion common settings*/
 
 /*#region navbar*/
@@ -37,9 +44,11 @@
   background-size: cover;
   background-position: 20% 50%;
 }
+
 .fitness-gym-logo {
   height: 190px;
 }
+
 .image-gallery-button {
   width: 100%;
   padding: 15px 50px;
@@ -48,11 +57,13 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
-.image-gallery-button:hover{
+
+.image-gallery-button:hover {
   background-color: white;
   border: 2px solid white;
 }
-.recorded-classes-button{
+
+.recorded-classes-button {
   width: 100%;
   padding: 15px 50px;
   font-size: 18px;
@@ -61,38 +72,46 @@
   border: 2px solid #FFC63D;
   background: transparent;
 }
-.recorded-classes-button:hover{
+
+.recorded-classes-button:hover {
   color: black;
   background-color: white;
   border: 2px solid white
 }
-.freepick-link{
+
+.freepick-link {
   color: white;
 }
-.freepick-link:hover{
+
+.freepick-link:hover {
   color: #e6e6e6;
   text-decoration: none;
 }
-.down-logo{
+
+.down-logo {
   height: 58px;
 }
-.offcanvas-start{
+
+.offcanvas-start {
   opacity: 0.9;
 }
+
 @media only screen and (min-width: 800px) {
-  .image-gallery-button{
+  .image-gallery-button {
     width: 49%;
   }
-  .recorded-classes-button{
+
+  .recorded-classes-button {
     width: 49%;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .image-gallery-button{
+  .image-gallery-button {
     width: 30%;
   }
-  .recorded-classes-button{
+
+  .recorded-classes-button {
     width: 30%;
   }
 }
@@ -100,10 +119,11 @@
 /*#endregion banner-top*/
 
 /*#region Gym services*/
-.service-card{
+.service-card {
   padding: 0;
 }
-.service-logo{
+
+.service-logo {
   position: relative;
   z-index: 999;
   background-color: white;
@@ -113,17 +133,21 @@
   padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.service-card-body{
+
+.service-card-body {
   padding-top: 100px;
   background-color: #FDC43D;
 }
-.forward-logo{
+
+.forward-logo {
   height: 30px;
   margin-bottom: 20px;
 }
-.custom-font-size-48{
+
+.custom-font-size-48 {
   font-size: 48px;
 }
+
 /*#endregion Gym services*/
 
 /*#region canvas-tour-booking*/
@@ -141,36 +165,64 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
+
 /*#endregion canvas-tour-booking*/
 
 /*#region canvas-learnmore-contactus*/
-.button-learnmore{
+.button-learnmore {
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 500;
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
-.button-contactus{
+
+.button-contactus {
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 500;
   background-color: #FFFFFF;
   border: 1px solid #FFC63D;
 }
-.freepick-link-2{
+
+.freepick-link-2 {
   color: #000000;
 }
-.freepick-link-2:hover{
+
+.freepick-link-2:hover {
   color: #000000;
 }
-@media only screen and (min-width: 768px) {
-  .learnmore-segment{
-    padding: 50px 0px 0px 0px;
-  }
+
+.learn-more-and-contactus {
+  background: linear-gradient(
+    to bottom, 
+    white 0%,
+    white 80%,
+    #FFC63D 80%,
+    #FFC63D 100%
+
+  );
 }
 
 @media only screen and (min-width: 992px) {
-  
+  .learnmore-segment {
+    padding: 150px 0px 0px 0px;
+  }
+  .contactus-segment {
+    padding: 190px 0px 0px 100px;
+  }
+  .workout_img1 {
+    translate: 0 100px;
+  }
+  .button-contactus {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  }
 }
+
+@media only screen and (min-width: 768px) {}
+
 /*#endregion canvas-learnmore-contactus*/
