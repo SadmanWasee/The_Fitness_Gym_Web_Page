@@ -148,6 +148,12 @@
   font-size: 48px;
 }
 
+@media only screen and (min-width: 992px) {
+  .services-segment{
+    min-height: 100vh;
+  }
+}
+
 /*#endregion Gym services*/
 
 /*#region canvas-tour-booking*/
@@ -177,12 +183,24 @@
   border: 2px solid #FFC63D;
 }
 
+.button-learnmore:hover{
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+
 .button-contactus {
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 500;
   background-color: #FFFFFF;
   border: 1px solid #FFC63D;
+}
+
+.button-contactus:hover{
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 
 .freepick-link-2 {
@@ -223,6 +241,5 @@
   }
 }
 
-@media only screen and (min-width: 768px) {}
 
 /*#endregion canvas-learnmore-contactus*/
