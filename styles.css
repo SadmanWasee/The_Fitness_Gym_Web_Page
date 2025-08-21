@@ -295,32 +295,32 @@
   height: 400px;
 }
 .pool-jaccuzi{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg1.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg1.jpg);
   background-size: cover;
   background-position: center;
 }
 .studio{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg2.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg2.jpg);
   background-size: cover;
   background-position: center;
 }
 .lounge-cafe{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg3.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg3.jpg);
   background-size: cover;
   background-position: center;
 }
 .sauna{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg4.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg4.jpg);
   background-size: cover;
   background-position: center;
 }
 .outdoor-space{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg5.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg5.jpg);
   background-size: cover;
   background-position: center;
 }
 .basketball-court{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg6.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg6.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -337,4 +337,20 @@
 /*#endregion amenities*/
 
 /*#region canvas-follow-on-instagram*/
+.canvas-follow-on-instagram{
+  margin-top: 100px;
+  padding-top: 100px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg1.jpg);;
+  padding-bottom: 100px;
+}
+.instagram-image{
+  height: 100px;
+}
+.amazing_sport_club_link {
+  color: #FDC43D;
+  text-decoration: none;
+}
+.amazing_sport_club_link:hover{
+  color: #FDC43D;
+}
 /*#region canvas-follow-on-instagram*/
