@@ -3,28 +3,22 @@
   padding: 0;
   margin: 0;
 }
-
 .custom-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .custom-color-yellow {
   color: #ffd15e;
 }
-
 .custom-color-black {
   color: #000000;
 }
-
 .custom-font-size-58 {
   font-size: 58px;
 }
-
 .navbar a {
   text-decoration: none;
 }
-
 .navbar a:hover {
   color: #ffd15e;
 }
@@ -35,7 +29,6 @@
 .navbar {
   color: black;
 }
-
 /*#endregion navbar*/
 
 /*#region banner-top*/
@@ -44,11 +37,9 @@
   background-size: cover;
   background-position: 20% 50%;
 }
-
 .fitness-gym-logo {
   height: 190px;
 }
-
 .image-gallery-button {
   width: 100%;
   padding: 15px 50px;
@@ -57,12 +48,10 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
-
 .image-gallery-button:hover {
   background-color: white;
   border: 2px solid white;
 }
-
 .recorded-classes-button {
   width: 100%;
   padding: 15px 50px;
@@ -72,30 +61,24 @@
   border: 2px solid #FFC63D;
   background: transparent;
 }
-
 .recorded-classes-button:hover {
   color: black;
   background-color: white;
   border: 2px solid white
 }
-
 .freepick-link {
   color: white;
 }
-
 .freepick-link:hover {
   color: #e6e6e6;
   text-decoration: none;
 }
-
 .down-logo {
   height: 58px;
 }
-
 .offcanvas-start {
   opacity: 0.9;
 }
-
 @media only screen and (min-width: 800px) {
   .image-gallery-button {
     width: 49%;
@@ -105,7 +88,6 @@
     width: 49%;
   }
 }
-
 @media only screen and (min-width: 1000px) {
   .image-gallery-button {
     width: 30%;
@@ -115,14 +97,12 @@
     width: 30%;
   }
 }
-
 /*#endregion banner-top*/
 
 /*#region Gym services*/
 .service-card {
   padding: 0;
 }
-
 .service-logo {
   position: relative;
   z-index: 999;
@@ -133,21 +113,17 @@
   padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .service-card-body {
   padding-top: 100px;
   background-color: #FDC43D;
 }
-
 .forward-logo {
   height: 30px;
   margin-bottom: 20px;
 }
-
 .custom-font-size-48 {
   font-size: 48px;
 }
-
 @media only screen and (min-width: 992px) {
   .services-segment{
     min-height: 100vh;
@@ -163,7 +139,6 @@
   background-position: top center;
   padding: 250px 0px 100px 0px;
 }
-
 .book-a-tour-button {
   padding: 15px 50px;
   font-size: 18px;
@@ -171,11 +146,9 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
-
 /*#endregion canvas-tour-booking*/
 
 /*#region canvas-learnmore-contactus*/
-
 .button-learnmore {
   padding: 10px 30px;
   font-size: 18px;
@@ -183,13 +156,11 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
-
 .button-learnmore:hover{
   color: #FFFFFF;
   background-color: #000000;
   border: 2px solid #000000;
 }
-
 .button-contactus {
   padding: 10px 30px;
   font-size: 18px;
@@ -197,21 +168,17 @@
   background-color: #FFFFFF;
   border: 1px solid #FFC63D;
 }
-
 .button-contactus:hover{
   color: #FFFFFF;
   background-color: #000000;
   border: 1px solid #000000;
 }
-
 .freepick-link-2 {
   color: #000000;
 }
-
 .freepick-link-2:hover {
   color: #000000;
 }
-
 .learn-more-and-contactus {
   background: linear-gradient(
     to bottom, 
@@ -222,7 +189,6 @@
 
   );
 }
-
 @media only screen and (min-width: 992px) {
   .learnmore-segment {
     padding: 150px 0px 0px 0px;
@@ -247,20 +213,16 @@
 .benifits-of-sport-training-segment{
   background-color: #FFC63D;
 }
-
 .benifits-card{
   background-color: #FFFFFF;
   padding: 50px 25px;
 }
-
 .more-info{
   color: black;
 }
-
 .more-info:hover{
   color: black;
 }
-
 @media only screen and (min-width: 992px) {
   .benifits-of-sport-training-segment{
     min-height: 100vh;
@@ -283,30 +245,96 @@
   height: 300px;
   width: 100%;
 }
-
 .submit-button{
   background-color: #FDC43D;
   border: 2px solid #FDC43D;
 }
-
 .submit-button:hover{
   background-color: #000000;
   border-color: 2px solid #000000;
   color: #FFFFFF;
 }
-
 .phone-number{
   text-decoration: none;
 }
 .phone-number:hover{
   color: #FDC43D;
 }
-
 @media only screen and (min-width: 768px) {
   .translate-100 {
     translate: 0 100px;
   }
 }
-
-
 /*#endregion book-your-workout*/
+
+/*#region membership-options*/
+.membership-options{
+  background: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #FFFFFF 30%), /* Transparent on the left, solid color on the right */
+    url('./images/banner_3.jpg') no-repeat center top / 70% auto; /* Image on the left */
+  background-size: cover; /* Adjust as needed */
+  
+}
+.membership-card{
+  background-color: #FFFFFF;
+  border: 2px solid #FDC43D;
+}
+.inquire-button {
+  padding: 15px 50px;
+  background-color: #FDC43D;
+  border: 2px solid #FDC43D;
+}
+.inquire-button:hover {
+  background-color: white;
+  border: 2px solid grey;
+} 
+/*#endregion membership-options*/
+
+/*#region amenities*/
+.custom-height-400 {
+  height: 400px;
+}
+.pool-jaccuzi{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg1.jpg);;
+  background-size: cover;
+  background-position: center;
+}
+.studio{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg2.jpg);;
+  background-size: cover;
+  background-position: center;
+}
+.lounge-cafe{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg3.jpg);;
+  background-size: cover;
+  background-position: center;
+}
+.sauna{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg4.jpg);;
+  background-size: cover;
+  background-position: center;
+}
+.outdoor-space{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg5.jpg);;
+  background-size: cover;
+  background-position: center;
+}
+.basketball-court{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg6.jpg);;
+  background-size: cover;
+  background-position: center;
+}
+.amenities-button{
+  padding: 10px 30px;
+  background-color: #FDC43D;
+  border: 2px solid #FDC43D;
+}
+.amenities-button:hover{
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+}
+/*#endregion amenities*/
+
+/*#region canvas-follow-on-instagram*/
+/*#region canvas-follow-on-instagram*/
