@@ -15,12 +15,16 @@
 }
 .custom-font-size-58 {
   font-size: 58px;
-}
+} 
 .navbar a {
   text-decoration: none;
 }
 .navbar a:hover {
   color: #ffd15e;
+}
+.input-background-color-gray{
+  background-color: #F2F2F2;
+  border: 1px solid gray;
 }
 
 /*#endregion common settings*/
@@ -42,7 +46,7 @@
 }
 .image-gallery-button {
   width: 100%;
-  padding: 15px 50px;
+  padding: 15px;
   font-size: 18px;
   font-weight: 500;
   background-color: #FFC63D;
@@ -54,7 +58,7 @@
 }
 .recorded-classes-button {
   width: 100%;
-  padding: 15px 50px;
+  padding: 15px;
   font-size: 18px;
   font-weight: 500;
   color: white;
@@ -270,9 +274,11 @@
 /*#region membership-options*/
 .membership-options{
   background: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #FFFFFF 30%), /* Transparent on the left, solid color on the right */
-    url('./images/banner_3.jpg') no-repeat center top / 70% auto; /* Image on the left */
-  background-size: cover; /* Adjust as needed */
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #FFFFFF 30%),
+    url('./images/banner_3.jpg') no-repeat center top / 70% auto; 
+  background-size: cover; 
+  outline: 0;
+  border: 0;
   
 }
 .membership-card{
@@ -340,7 +346,9 @@
 .canvas-follow-on-instagram{
   margin-top: 100px;
   padding-top: 100px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg1.jpg);;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg1.jpg);
+  background-position: center;
+  background-size: cover;
   padding-bottom: 100px;
 }
 .instagram-image{
@@ -354,3 +362,49 @@
   color: #FDC43D;
 }
 /*#region canvas-follow-on-instagram*/
+
+/*#region our trainers*/
+.freepik-link-yellow{
+  border-bottom: 2px solid #FDC43D;
+  color: #000000;
+}
+.freepik-link-yellow:hover{
+  border-bottom: 2px solid #000000;
+  color: #000000;
+}
+/*#endregion our trainers*/
+
+/*#region canvas-elite-personal-training*/
+.canvas-elite-personal-training{
+  padding: 100px 0 100px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg3.jpg); 
+}
+.dart-image{
+  height: 100px;
+}
+/*#region canvas-elite-personal-training*/
+
+/*#region contact us*/
+.contact-us{
+  background-color: #FFC63D;
+  padding: 100px 0 100px 0;
+}
+
+.form-container{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.submit-button {
+  background-color: #000000;
+}
+/*#endregion contact us*/
+
+/*#region footer*/
+.black-background {
+  background-color: #000000;
+}
+.gray-background{
+  background-color: #333333;
+}
+/*#region footer*/
