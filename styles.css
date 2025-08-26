@@ -4,44 +4,55 @@
   margin: 0;
   color: #000000;
 }
+
 .custom-container {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .custom-color-yellow {
   color: #ffd15e;
 }
+
 .custom-color-black {
   color: #000000;
 }
+
 .custom-font-size-58 {
   font-size: 58px;
-} 
+}
+
 .navbar a {
   text-decoration: none;
 }
+
 .navbar a:hover {
   color: #ffd15e;
 }
+
 .input-background-color-gray {
   background-color: #F2F2F2;
   border: 1px solid gray;
 }
+
 /*#endregion common settings*/
 
 /*#region navbar*/
 .navbar {
   color: black;
 }
+
 .offcanvas {
   background-color: #000000;
   width: 75%;
 }
+
 @media only screen and (min-width:768px) {
   .offcanvas {
     width: 25%;
   }
 }
+
 /*#endregion navbar*/
 
 /*#region canvas-health-and-fitness-club*/
@@ -50,12 +61,15 @@
   background-size: cover;
   background-position: 20% 50%;
 }
+
 .fitness-gym-logo {
   height: 190px;
 }
-.health-fitness-club{
+
+.health-fitness-club {
   font-size: 38px;
 }
+
 .image-gallery-button {
   width: 250px;
   padding: 15px;
@@ -64,10 +78,12 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
+
 .image-gallery-button:hover {
   background-color: white;
   border: 2px solid white;
 }
+
 .recorded-classes-button {
   width: 250px;
   padding: 15px;
@@ -77,40 +93,53 @@
   border: 2px solid #FFC63D;
   background: transparent;
 }
+
 .recorded-classes-button:hover {
   color: black;
   background-color: white;
   border: 2px solid white
 }
+
 .freepick-link {
   color: white;
   text-decoration: none;
   border-bottom: 2px solid white;
 }
+
 .freepick-link:hover {
   color: #e6e6e6;
   border-bottom: none;
 }
+
 .down-logo {
   height: 58px;
 }
+
 .offcanvas-start {
   opacity: 0.9;
 }
-@media only screen and (min-width:768px){
-  .health-fitness-club{
+
+@media only screen and (min-width:768px) {
+  .health-fitness-club {
     font-size: 58px;
   }
 }
+
 /*#endregion canvas-health-and-fitness-club*/
 
 /*#region Gym services*/
-.services-segment{
+.services-segment {
   padding-bottom: 50px;
 }
+
+.join-now-caption {
+  font-size: 32px;
+}
+
 .service-card {
   padding: 0;
 }
+
 .service-logo {
   position: relative;
   z-index: 999;
@@ -121,21 +150,28 @@
   padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.service-logo-container{
+
+.service-logo-container {
   background-color: #FFC63D;
   width: 300px;
 }
+
 .service-card-body {
   padding-top: 100px;
   background-color: #FFC63D;
 }
+
 .forward-logo {
   height: 35px;
   margin-bottom: 20px;
 }
-.custom-font-size-48 {
-  font-size: 48px;
+
+@media only screen and (min-width:992px) {
+  .join-now-caption {
+    font-size: 58px;
+  }
 }
+
 /*#endregion Gym services*/
 
 /*#region canvas-tour-booking*/
@@ -145,6 +181,7 @@
   background-position: top center;
   padding: 100px 0px 100px 0px;
 }
+
 .book-a-tour-button {
   padding: 15px 50px;
   font-size: 18px;
@@ -152,77 +189,90 @@
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
+
 .book-a-tour-button:hover {
   background-color: #eda802;
   border: 2px solid #eda802;
 }
+
 .work-hard-get-results {
   font-size: 28px;
 }
+
 @media only screen and (min-width:768px) {
   .work-hard-get-results {
     font-size: 58px;
   }
+
   .canvas-tour-booking {
     padding: 200px 0px 150px 0px;
   }
 }
+
 /*#endregion canvas-tour-booking*/
 
 /*#region canvas-learnmore-contactus*/
-.learnmore-segment{
+.learnmore-segment {
   padding-top: 20px;
 }
+
 .button-learnmore {
   padding: 10px 30px;
   font-size: 14px;
   background-color: #FFC63D;
   border: 2px solid #FFC63D;
 }
-.button-learnmore:hover{
+
+.button-learnmore:hover {
   color: #FFFFFF;
   background-color: #000000;
   border: 2px solid #000000;
 }
+
 .button-contactus {
   padding: 10px 30px;
   font-size: 14px;
   background-color: #FFFFFF;
   border: 1px solid #FFC63D;
 }
-.button-contactus:hover{
+
+.button-contactus:hover {
   color: #FFFFFF;
   background-color: #000000;
   border: 1px solid #000000;
 }
+
 .freepick-link-2 {
   color: #000000;
   text-decoration: none;
   border-bottom: 2px solid #000000;
 }
+
 .freepick-link-2:hover {
   color: #000000;
 }
-.learn-more-and-contactus {
-  background: linear-gradient(
-    to bottom, 
-    white 0%,
-    white 80%,
-    #FFC63D 80%,
-    #FFC63D 100%
 
-  );
+.learn-more-and-contactus {
+  background: linear-gradient(to bottom,
+      white 0%,
+      white 80%,
+      #FFC63D 80%,
+      #FFC63D 100%);
 }
+
 @media only screen and (min-width: 992px) {
   .learnmore-segment {
     padding: 150px 0px 0px 0px;
   }
+
   .contactus-segment {
     padding: 190px 0px 0px 100px;
   }
+
   .workout_img1 {
     translate: 0 100px;
   }
+
   .button-contactus {
     padding: 10px 30px;
     font-size: 18px;
@@ -231,114 +281,153 @@
     border: 1px solid #FFFFFF;
   }
 }
+
 /*#endregion canvas-learnmore-contactus*/
 
 /*#region benefits-of-sports-training*/
+.membership-option-heading {
+  font-size: 30px;
+}
+
 .benifits-of-sport-training-segment {
   background-color: #FFC63D;
 }
+
+.benefits-of-sport-training-heading {
+  font-size: 35px;
+}
+
 .benifits-card {
   background-color: #FFFFFF;
-  padding: 50px 25px;
+  padding: 20px 25px;
 }
+
 .more-info {
   color: black;
   text-decoration: none;
   border-bottom: 2px solid black;
 }
+
 .more-info:hover {
   color: #FFC63D;
   border-bottom: 2px solid #FFC63D;
 }
+
 @media only screen and (min-width: 992px) {
-  .benifits-of-sport-training-segment{
+  .membership-option-heading {
+    font-size: 58px;
+  }
+
+  .benifits-of-sport-training-segment {
     min-height: 100vh;
   }
+
+  .benefits-of-sport-training-heading {
+    font-size: 48px;
+  }
+
+  .benifits-card {
+    padding: 50px 25px;
+  }
 }
+
 /*#endregion benefits-of-sports-training*/
 
 /*#region book-your-workout*/
 .book-your-workout {
-  background: linear-gradient(
-    to top, 
-    white 0%,
-    white 60%,
-    #FFC63D 60%,
-    #FFC63D 100%
-  );
+  background: linear-gradient(to top,
+      white 0%,
+      white 60%,
+      #FFC63D 60%,
+      #FFC63D 100%);
 }
+
 .workout-img {
   height: 300px;
   width: 100%;
 }
+
 .benefits-submit-button {
   background-color: #FDC43D;
   border: 2px solid #FDC43D;
   color: black;
 }
+
 .benefits-submit-button:hover {
   background-color: #000000;
   border: 2px solid #000000;
   color: #FFFFFF;
 }
+
 .phone-number {
   text-decoration: none;
   color: #000;
 }
+
 .phone-number:hover {
   color: #FDC43D;
 }
-.phone-number:hover .fa-phone{
+
+.phone-number:hover .fa-phone {
   color: #FDC43D;
 }
-.signup-submit{
+
+.signup-submit {
   background-color: #F1C50E;
   padding: 10px 0px 10px 0px;
   border: none;
 }
+
 .signup-submit:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
+
 .newsletter-email {
-  background-color: #F1F1F1;  
+  background-color: #F1F1F1;
   border: 1px solid gray;
 }
+
 @media only screen and (min-width: 768px) {
   .translate-100 {
     translate: 0 100px;
   }
 }
+
 /*#endregion book-your-workout*/
 
 /*#region membership-options*/
 .membership-options {
-  background: 
+  background:
     linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #FFFFFF 30%),
-    url('./images/banner_3.jpg') no-repeat center top / 70% auto; 
-  background-size: cover; 
+    url('./images/banner_3.jpg') no-repeat center top / 70% auto;
+  background-size: cover;
   outline: 0;
   border: 0;
-  
+
 }
+
 .membership-card {
   background-color: #FFFFFF;
   border: 2px solid #FDC43D;
 }
+
 .inquire-button {
-  padding: 15px 50px;
+  padding: 15px 20px;
   background-color: #FDC43D;
   border: 2px solid #FDC43D;
 }
+
 .inquire-button:hover {
   background-color: white;
   border: 2px solid grey;
-} 
+}
+
 /*#endregion membership-options*/
 
 /*#region amenities*/
-.custom-height-400 {
-  height: 400px;
+.amenities-card-height {
+  height: 300px;
 }
 .pool-jaccuzi {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/card_bg1.jpg);
@@ -380,12 +469,19 @@
   border: 2px solid black;
   color: white;
 }
+@media only Screen and (min-width:768px) {
+  .amenities-card-height {
+    height: 400px;
+  }
+  .amenitites-heading {
+    font-size: 58px;
+  }
+}
 /*#endregion amenities*/
 
 /*#region canvas-follow-on-instagram*/
 .canvas-follow-on-instagram {
   margin-top: 100px;
-  padding: 100px 0px 100px 0px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg1.jpg);
   background-size: cover;
 }
@@ -398,6 +494,11 @@
 }
 .amazing_sport_club_link:hover {
   color: #FDC43D;
+}
+@media only screen and (min-width:768px){
+  .canvas-follow-on-instagram {
+    padding: 100px 0px 100px 0px;;
+  }
 }
 /*#endregion canvas-follow-on-instagram*/
 
@@ -414,11 +515,16 @@
 
 /*#region canvas-elite-personal-training*/
 .canvas-elite-personal-training {
-  padding: 100px 0 100px 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg3.jpg); 
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/banner_bg3.jpg);
+  background-size: cover;
 }
 .dart-image {
   height: 100px;
+}
+@media only screen and (min-width:768px) {
+  .canvas-elite-personal-training{
+    padding: 100px 0 100px 0;
+  }
 }
 /*#endregion canvas-elite-personal-training*/
 
@@ -436,13 +542,16 @@
 .submit-button {
   background-color: #000000;
 }
+
 /*#endregion contact us*/
 
 /*#region footer*/
 .black-background {
   background-color: #000000;
 }
+
 .gray-background {
   background-color: #333333;
 }
+
 /*#endregion footer*/
